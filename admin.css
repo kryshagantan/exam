@@ -1,0 +1,83 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe4e1; /* Light pink background */
+    margin: 0;
+    padding: 0;
+    color: #555;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+h2 {
+    font-size: 28px;
+    color: #d81b60; /* Vibrant pink */
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #d81b60; /* Pink border */
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+form input[type="submit"] {
+    width: 95%;
+    padding: 10px;
+    background-color: #ff69b4; /* Hot pink */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #d81b60; /* Darker pink */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #d81b60; /* Pink border */
+}
+
+table th {
+    background-color: #ff69b4; /* Hot pink */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #ffe4f1; /* Light pink row background */
+}
+
+table tr:hover {
+    background-color: #ffd1dc; /* Highlight on hover */
+}
+
+a {
+    color: #d81b60; /* Pink text */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff69b4; /* Hot pink */
+}
